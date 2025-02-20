@@ -5,7 +5,7 @@ class Config(object):
   API_HASH = os.environ.get("API_HASH", "")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
-  DB_CHANNEL = int(os.environ.get("mongodb+srv://<dpdev0>:<1234dp>@cluster0.gonun.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", ""))
+  DB_CHANNEL = int(os.environ.get("db url", "mongodb+srv://<dpdev0>:<1234dp>@cluster0.gonun.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "MoneyKamalo.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "0eefb93e1e3ce9470a7033115ceb1bad13a9d674")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", ""))
