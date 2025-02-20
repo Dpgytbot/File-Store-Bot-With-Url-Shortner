@@ -2,9 +2,9 @@ import os
 
 class Config(object):
   API_ID = int(os.environ.get("API_ID", ""))
-  API_HASH = os.environ.get("API_HASH", "")
+  API_HASH = os.environ.get("API_HASH", "e53eecba602443041994af39d029f3f6")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "6437947811:AAETguqBfMr-R0vN4QqFLsXp4j-q1D-x2uw")
   DB_CHANNEL = int(os.environ.get("db url", "mongodb+srv://<dpdev0>:<1234dp>@cluster0.gonun.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "MoneyKamalo.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "0eefb93e1e3ce9470a7033115ceb1bad13a9d674")
